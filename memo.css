@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.container{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  width: 40%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+  }
+  
+  .grid img {
+    width: 100%; /* Ensures the images take up the full width of their grid cells */
+    height: 100%; /* Ensures the images take up the full height of their grid cells */
+    object-fit: cover; /* Ensures the images maintain their aspect ratio while filling their grid cells */
+  }
+  h2{
+    font-family: 'Righteous', cursive;
+  }
